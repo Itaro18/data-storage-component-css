@@ -34,6 +34,9 @@ body
     align-items: center;
     font-size: 0.9rem;
     gap: 5rem;
+    background-image: url(images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -160,7 +163,15 @@ h1
 }
 
 @media (min-width:800px)
-{
+{   
+    body
+    {
+        background-image: url(images/bg-desktop.png);
+        background-size: 100% 55%;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+
+    }
     main
     {   
         width: 76%;
